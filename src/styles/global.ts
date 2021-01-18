@@ -9,8 +9,6 @@ export default createGlobalStyle`
   }
 
   body {
-    background: #312E38;
-    color: #FFF;
     -webkit-font-smoothing: antialiased;
   }
 
@@ -25,5 +23,12 @@ export default createGlobalStyle`
 
   button {
     cursor: pointer;
+  }
+
+  #root {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: auto 20px;
+    background-color: #c4c4c4;
   }
 `;
